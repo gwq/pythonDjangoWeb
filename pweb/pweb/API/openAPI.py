@@ -7,6 +7,7 @@ Created on Aug 23, 2014
 '''
 def hello(request):
     
-    i = request.GET.get('cc')
+    i = request.GET.get('dd')
+    print (i)
     print (i)
     return HttpResponse('hello,Gwq')
